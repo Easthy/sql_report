@@ -1,0 +1,5 @@
+host: dbname.XXXXX.eu-central-1.redshift.amazonaws.com
+port: '5439'
+dbname: dbname
+user: user_name
+password: XXXXX

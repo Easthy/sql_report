@@ -1,0 +1,2 @@
+view_name|sql_file_path|score|tables_used_cnt|columns_cnt|sql_operators_cnt|join_cnt|subqueries_used_cnt|cte_used_cnt|case_cnt|union_cnt|cross_join_cnt|regexp_cnt|columns|tables_used|cte_used|subqueries_used|size_mb|rows_cnt
+reports.v001_uuid|sql_code/views/v001_uuid.sql|3.2|3|1|2|1|1|2|1|1|0|0|['uuid', 'user_id', 'registration_date', 'registration_ip', 'last_ip', 'minutes']|['public.table_2', 'public.table', 'public.table_3']|['cte_data', 'sub_cte_data']|['subquery']|(4,)|(1,)
