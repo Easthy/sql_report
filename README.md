@@ -11,6 +11,7 @@ To speed up execution, you can disable `get_table_size` and `get_table_rows` in 
 python3 find_usage.py --help
 python3 find_usage.py --target_columns='["minutes", "fake"]'
 ```
+![alt text](https://github.com/Easthy/sql_report/blob/main/screenshot.png)
 
 ## SQL Rules
 
