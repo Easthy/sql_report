@@ -1,7 +1,7 @@
-# The purpose of this code is to find in which script the columns of a given table are used (find_usages). Properly formatted SQL code is required for parsing in this case; otherwise, errors related to the parsing library may occur.
+### The purpose of this code is to find in which script the columns of a given table are used (find_usages). Properly formatted SQL code is required for parsing in this case; otherwise, errors related to the parsing library may occur.
 Additionally, the code allows for evaluating the complexity of the scripts and identifying potential bottlenecks that may require refactoring.
 
-## To run the script that will evaluate the complexity of the code.
+#### To run the script that will evaluate the complexity of the code.
 ```
 python3 evaluate_complicity.py --help
 python3 evaluate_complicity.py --db_search=True --db_report_schema=public
@@ -9,14 +9,14 @@ python3 evaluate_complicity.py --db_search=True --db_report_schema=public
 The results of the script evaluations will be in the file `output.csv`.  
 To speed up execution, you can disable `get_table_size` and `get_table_rows` in the evaluation script by setting db_search to False
 
-## To run the script that finds in which SQL query files columns from a given table are used.
+#### To run the script that finds in which SQL query files columns from a given table are used.
 ```
 python3 find_usage.py --help
 python3 find_usage.py --target_columns='["minutes", "fake"]'
 ```
 ![alt text](https://github.com/Easthy/sql_report/blob/main/screenshot.png)
 
-### SQL Rules
+#### SQL Rules
 
 1. **An alias for each column must be specified..**  
 2. **Columns and tables must have different names (aliases).**  
