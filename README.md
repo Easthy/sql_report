@@ -1,5 +1,5 @@
 ### The purpose of this code is to find in which script the columns of a given table are used (find_usages). Properly formatted SQL code is required for parsing in this case; otherwise, errors related to the parsing library may occur.
-Additionally, the code allows for evaluating the complexity of the scripts and identifying potential bottlenecks that may require refactoring.
+### The evaluate_complicity.py script allows for evaluating code complexity and identifying potential bottlenecks that may require refactoring.
 
 #### To run the script that will evaluate the complexity of the code.
 ```
